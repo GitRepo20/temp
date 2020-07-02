@@ -29,7 +29,7 @@ const routes: Routes = [
   	  BrowserModule,    
       RouterModule.forRoot(
       routes,
-      { enableTracing: true } // <-- debugging purposes only
+      { enableTracing: true } // <-- debugging purposes only test
     ),    
     HttpClientModule
   ],
